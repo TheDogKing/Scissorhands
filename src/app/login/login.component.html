@@ -1,0 +1,25 @@
+<div class="mainform">
+  <div class="p-field p-col-12 p-md-4" style="margin: 50px;">
+    <div class="p-inputgroup">
+        <span class="p-inputgroup-addon">
+            <i class="pi pi-user"></i>
+        </span>
+        <span class="p-float-label">
+            <input type="text" id="inputname" pInputText [(ngModel)]="rootname"> 
+            <label for="inputname">用户</label>
+        </span>
+    </div>
+  </div>
+  <div class="p-field p-col-12 p-md-4" style="margin: 50px;">
+    <div class="p-inputgroup">
+        <span class="p-inputgroup-addon">
+            <i class="pi pi-lock"></i>
+        </span>
+        <span class="p-float-label">
+            <input type="password" id="inputp" [feedback]="false" pPassword [(ngModel)]="rootp"> 
+            <label for="inputp">密码</label>
+        </span>
+    </div>
+  </div>
+  <button pButton pRipple type="button" label="登录" class="right p-button-raised p-button-text" (click)=login()></button>
+</div>

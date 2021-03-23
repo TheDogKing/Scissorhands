@@ -1,0 +1,15 @@
+.mainform{
+  height: 300px;
+  width: 500px;
+  border: 2px solid lightgray;
+  border-radius: 25px;
+  margin:200px auto;
+  box-shadow: 10px 10px 5px #888888;
+  position: relative;
+}
+.right {
+  position: absolute;
+  height: 40px;
+  width: 80px;
+  right: 50px;
+}
