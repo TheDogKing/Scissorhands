@@ -13,6 +13,8 @@ import { SettingComponent } from './setting/setting.component';
 import { FormsModule } from '@angular/forms';
 import {ButtonModule} from 'primeng/button';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import {MessagesModule} from 'primeng/messages';
+import {MessageModule} from 'primeng/message';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +25,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     PageNotFoundComponent
   ],
   imports: [
-    BrowserModule,MenubarModule,BrowserAnimationsModule,PasswordModule,InputTextModule,FormsModule,ButtonModule,
+    BrowserModule,MenubarModule,BrowserAnimationsModule,PasswordModule,InputTextModule,FormsModule,ButtonModule,MessagesModule,MessageModule,
     AppRoutingModule
   ],
   providers: [],

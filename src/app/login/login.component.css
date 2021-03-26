@@ -13,3 +13,8 @@
   width: 80px;
   right: 50px;
 }
+.message{
+	position:fixed;
+	top:30px;
+	right:5px;
+}
